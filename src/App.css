@@ -104,3 +104,21 @@
  
   
 }
+@media (max-width: 768px) {
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .game{
+      width: 90vw;
+      padding: 30px;
+      .game_input-points{
+        gap: 20px;
+      }
+      .game_buttons{
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
